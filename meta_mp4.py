@@ -14,13 +14,13 @@ if vcap.isOpened():
     
     if m <=9: m = '0'+str(m)
     if s <=9: s = '0'+str(s)
-    time = str(m)+':'+str(s)
+    time = str(m)+':'+str(s) # MM:SS
     
     if h > 0:
         if h <=9: h = '0' + str(h)
-        time = h+':'+time
+        time = h+':'+time # HH:MM:SS
     
-    print('Duração:',time) #MM:SS
+    print('Duração:',time)
     print('Qualidade:',str(vcap.get(4))[:-2]+'p') # vcap.get(4) referente à CAP_PROP_FRAME_HEIGHT 
 else:
     print(':( arquivo não encontrado!')
