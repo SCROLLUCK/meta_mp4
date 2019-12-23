@@ -1,4 +1,4 @@
-# meta_mp4
+# metadata_mp4
 
 Código simples para obter os metadados: qualidade e duração de um arquivo .mp4 usando a biblioteca opencv-python (cv2) em python3.
 É possivel obter outros metadados usando esta biblioteca em python, confira o link para mais detalhes.
