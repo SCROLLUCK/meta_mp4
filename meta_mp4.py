@@ -17,8 +17,7 @@ if vcap.isOpened():
     time = str(m)+':'+str(s)
     
     if h > 0:
-        if h <=9:
-            h = '0' + str(h)
+        if h <=9: h = '0' + str(h)
         time = h+':'+time
     
     print('Duração:',time) #MM:SS
